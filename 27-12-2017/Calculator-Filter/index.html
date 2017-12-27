@@ -1,0 +1,41 @@
+<html>
+<head>
+<script src="main.js">
+
+	defer = "true";
+
+</script>
+</head>
+<body>
+
+Number 1:<input type = "text" id = "Num1">
+<br>
+
+Number 2:<input type = "text" id = "Num2">
+<br>
+
+<input type = "button" onClick = "calc('+')" value = "+">
+<input type = "button" onClick = "calc('-')" value = "-">
+<input type = "button" onClick = "calc('*')" value = "*">
+<input type = "button" onClick = "calc('/')" value = "/">
+<br>
+
+<select id="dropdown" onchange = "filter()">
+  <option value="+">Addition</option>
+  <option value="-">Subtraction</option>
+  <option value="*">Multiplication</option>
+  <option value="/">Division</option>
+</select>
+<br>
+
+<table style="display:none" id = 't1'>
+<tr>
+<th>SrNo.</th>
+<th>Operation</th>
+<th>Result</th>
+</tr>
+</table>
+<br>
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+The fields of a form are displayed in the table below using a JSON object.
